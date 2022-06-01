@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'vazir';
+    font-weight: normal;
+}
+body{
+    background-color: #eee;
+    position: relative;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+}
+a:hover{
+    color: rgb(18, 184, 18);
+}
+ ::placeholder{
+     color: #ccc;
+     padding-right: 10px;
+     text-align: right;
+ }

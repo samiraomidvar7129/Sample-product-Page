@@ -1,0 +1,107 @@
+/* @import './fonts.css';
+@import './utilitis.css';
+@import './general-styles.css';
+@import './responsive-992.css'; */
+@import './product-styles.css';
+/* -------------------------------general styles login------------------- */
+
+
+
+
+
+
+
+
+#particles-js{
+    max-width: 980px;
+    height: 600px;
+    margin: 50px auto;
+    background-color: rgb(40, 207, 230);
+    position: relative;
+    }
+
+    .wrapper-login{
+        justify-content:space-between; 
+      align-items: center;
+        width: 40%;
+        height: 400px;
+        margin-right: -30px;
+        position:absolute; 
+        top: 50px;
+        right: 100px; 
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background-color: #eee;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 20px;
+        /* filter: blur(10PX); */
+
+    }
+    form div h3{
+        margin-right: 80px;
+        color:#fff;
+        font-size: 25px;
+    }
+    label{
+        color: #fff;
+    }
+    form input{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+        padding: 5px 0;
+
+    }
+    form input[type="submit"]{
+        margin-top: 15px;
+        padding: 7px;
+        background-color: rgb(63, 174, 238);
+        color: #fff;
+        transition: 0.2s linear;
+    }
+    form input[type="submit"]:hover{
+        background-color: rgb(28, 153, 224);
+    }
+    form div.remember-password{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .remember-password input{
+        margin-right: -40px;
+    }
+    .remember-password span{
+       
+        margin-right: -30px;
+        width: 250px;
+        height: 50px;
+        padding-top: 15px;
+    }
+ 
+    form ul{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 10px 0 0 20px;
+    }
+ 
+    @media screen and (max-width:992px) {
+        .wrapper{
+         margin: 12px;
+        }
+     .wrapper-login{
+         width: 90%;
+         height: auto;
+    margin-right: -75px;  
+     }}

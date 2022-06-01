@@ -1,0 +1,14 @@
+.delet{
+    color: red;
+}
+
+
+.d-flex{
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+}
+.row-revers{
+    display: flex;
+    flex-direction: row-reverse;
+}
